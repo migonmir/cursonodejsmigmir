@@ -1,0 +1,13 @@
+// Ejercicio 1 - api con Express
+
+const express = require('express');  // importar express
+const app=express();  /crear un instancia de express
+
+//get
+
+
+//configurar el puerto de escucha
+
+app.listen(5000); // escucha en el puerto 5000
+console.log('Servidor corriendo en el puerta 5000');
+
