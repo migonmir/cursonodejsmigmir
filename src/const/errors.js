@@ -1,4 +1,4 @@
-mudule.exports = {
+module.exports = {
     'ValidationError':{
         code: 1000,
         message: 'Error de Validacion'

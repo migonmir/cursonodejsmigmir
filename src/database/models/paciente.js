@@ -53,7 +53,7 @@ module.exports = (sequelize, DataTypes) =>{
         }
     )
     Paciente.associate = models => {
-        Paciente.belongTo(models.medico)
+        Paciente.belongsTo(models.medico)
     }
     return Paciente
 }

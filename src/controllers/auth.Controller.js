@@ -4,7 +4,7 @@ const errors = require('../const/errors.js')
 const bcrypt = require('bcrypy.js')
 const signJWT = require('../middlewares/signJWT.js')
 
-module.express = {
+module.exports = {
     login: async(req,res,next) => { 
                  try {
             const pacient = await models.paciente.findOne({

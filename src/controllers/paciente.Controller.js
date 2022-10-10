@@ -1,7 +1,7 @@
 const models = require('../database/models/index.js')
 const errors = require('../const/errors.js')
 
-module.express = {
+module.exports = {
     listar: async(req,res) => {
           //lista todos los pacientes
         try {
