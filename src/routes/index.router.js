@@ -10,7 +10,7 @@ const rutas_init = () =>{
 
    
    router.use("/pacientes", decodeJWT, pacientesRouter) 
-   router.use("/medicos", medicosRouter)
+   router.use("/medicos", decodeJWT,medicosRouter)
    return router
 };
 const rutas_auth = () =>{
